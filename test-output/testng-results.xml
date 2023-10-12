@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-12T15:30:51 IST" name="test" finished-at="2023-10-12T15:31:03 IST" duration-ms="12596">
+    <groups>
+    </groups>
+    <test started-at="2023-10-12T15:30:51 IST" name="HomePageTest" finished-at="2023-10-12T15:31:03 IST" duration-ms="12596">
+      <class name="com.redbus.testpages.HomePageTest">
+        <test-method is-config="true" signature="InitalizeExtentReport()[pri:0, instance:com.redbus.testpages.HomePageTest@4b29d1d2]" started-at="2023-10-12T15:30:50 IST" name="InitalizeExtentReport" finished-at="2023-10-12T15:30:51 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitalizeExtentReport -->
+        <test-method is-config="true" signature="getnameMethod(org.testng.ITestContext)[pri:0, instance:com.redbus.testpages.HomePageTest@4b29d1d2]" started-at="2023-10-12T15:30:51 IST" name="getnameMethod" finished-at="2023-10-12T15:30:51 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@58606c91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getnameMethod -->
+        <test-method is-config="true" signature="test()[pri:0, instance:com.redbus.testpages.HomePageTest@4b29d1d2]" started-at="2023-10-12T15:30:51 IST" name="test" finished-at="2023-10-12T15:30:53 IST" depends-on-methods="com.redbus.base.BaseTest.getnameMethod" duration-ms="2851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="Home_Page_Test()[pri:0, instance:com.redbus.testpages.HomePageTest@4b29d1d2]" started-at="2023-10-12T15:30:53 IST" name="Home_Page_Test" finished-at="2023-10-12T15:31:03 IST" duration-ms="9655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_Page_Test -->
+        <test-method is-config="true" signature="generateTestStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:com.redbus.testpages.HomePageTest@4b29d1d2]" started-at="2023-10-12T15:31:03 IST" name="generateTestStatus" finished-at="2023-10-12T15:31:03 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.redbus.testpages.HomePageTest.Home_Page_Test() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=Home_Page_Test status=SUCCESS method=HomePageTest.Home_Page_Test()[pri:0, instance:com.redbus.testpages.HomePageTest@4b29d1d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestStatus -->
+        <test-method is-config="true" signature="generateReports()[pri:0, instance:com.redbus.testpages.HomePageTest@4b29d1d2]" started-at="2023-10-12T15:31:03 IST" name="generateReports" finished-at="2023-10-12T15:31:06 IST" duration-ms="2443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+      </class> <!-- com.redbus.testpages.HomePageTest -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- test -->
+</testng-results>
